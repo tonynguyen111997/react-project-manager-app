@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './NavBar.css';
+
 const NavBar = () => {
   return (
-    <div>
-      <h1>Test</h1>
+    <div className = "nav__navbar">
+      
     </div>
   );
 }
