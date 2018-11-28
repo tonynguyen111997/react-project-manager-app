@@ -1,4 +1,5 @@
 .nav__navbar {
+  display: flex;
   background-color: #4286f48e;
   height: 75px;
   width: 100%;

@@ -1,3 +1,14 @@
-
+.nav__item-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav__item-list li:last-child {
+  margin-left: auto;
+}
 
 /*# sourceMappingURL=NavItemList.css.map */
