@@ -1,0 +1,64 @@
+.login__form-container {
+  float: right;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: 100px;
+  margin: 20px 20px;
+  box-shadow: 0px 2px 2px 0px gray;
+  background-color: #00695c;
+}
+.login__form-container fieldset {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.login__form-container .login__form-title {
+  font-size: 1.75em;
+  color: white;
+}
+.login__form-container .login__form-input {
+  margin-top: 10px;
+}
+.login__form-container .login__form-input label {
+  color: white;
+}
+.login__form-container .login__input-text {
+  margin-top: 10px;
+  width: 90%;
+}
+.login__form-container .login__input-text:focus {
+  background-color: #ffeb3b;
+}
+.login__form-container .login__input-submit {
+  border: none;
+  height: 50px;
+  width: 100px;
+  margin-top: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px 0px gray;
+  cursor: pointer;
+  color: #4d4d4d;
+  outline: none;
+}
+.login__form-container .login__input-submit:hover {
+  box-shadow: 0px 4px 4px 0px gray;
+  background-color: #ffeb3b;
+}
+.login__form-container .login__input-submit:active {
+  box-shadow: none;
+  background-color: #ecda39;
+}
+.login__form-container .login__register-btn p {
+  width: 75px;
+  color: white;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.login__form-container .login__register-btn p:hover {
+  color: #ffeb3b;
+}
+
+/*# sourceMappingURL=login.css.map */
