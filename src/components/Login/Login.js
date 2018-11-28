@@ -6,49 +6,52 @@ class Login extends Component {
   constructor(props){
     super(props);
     this.state={
-      username: '',
       email: '',
       password: ''
     }
   }
 
-  onUsernameChange = event => this.setState({ username: event.target.value });
   onEmailChange = event => this.setState({ email: event.target.value });
   onPasswordChange = event => this.setState({ password: event.target.value });
 
   render(){
     return(
       <main>
-        <fieldset className="register__form-container">
-          <legend>Register</legend>
-          <div>
-            <label htmlFor="username">Username</label>
-            <input
-              type="text"
-              name="username"
-              id="username"
-              onChange={this.onUsernameChange}
+        <div className="login__form-container">
+          <fieldset>
+            <legend className="login__form-title">Sign In</legend>
+            <div className="login__form-input">
+              <label htmlFor="email">Email</label>
+              <input
+                className="login__input-text"
+                type="email"
+                name="email"
+                id="email"
+                onChange={this.onEmailChange}
+                />
+            </div>
+            <div className="login__form-input">
+              <label htmlFor="userPassword">Password</label>
+              <input
+                className="login__input-text"
+                type="password"
+                name="userPassword"
+                id="userPassword"
+                onChange={this.onPasswordChange}
+                />
+            </div>
+            <div>
+              <input
+                className="login__input-submit"
+                type="submit"
+                value="Sign In"
               />
-          </div>
-          <div>
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              onChange={this.onEmailChange}
-              />
-          </div>
-          <div>
-            <label htmlFor="userPassword">Password</label>
-            <input
-              type="password"
-              name="userPassword"
-              id="userPassword"
-              onChange={this.onPasswordChange}
-              />
-          </div>
-        </fieldset>
+            </div>
+            <div className="login__register-btn">
+              <p>Register</p>
+            </div>
+          </fieldset>
+        </div>
       </main>
     );
   }
