@@ -1,9 +1,16 @@
 import React from 'react';
 
+import './NavBar.css';
+
+//components
+import NavTitle from './NavTitle/NavTitle';
+import NavItemlist from './NavItemlist/NavItemList';
+
 const NavBar = () => {
   return (
-    <div>
-      <h1>Test</h1>
+    <div className = "nav__navbar">
+      <NavTitle title="Project" />
+      <NavItemlist />
     </div>
   );
 }

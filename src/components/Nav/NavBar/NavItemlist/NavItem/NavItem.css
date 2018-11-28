@@ -1,0 +1,11 @@
+.nav__items {
+  margin-right: 25px;
+}
+.nav__items a {
+  text-decoration: none;
+  color: #000000;
+  height: 100%;
+  font-size: 1.25em;
+}
+
+/*# sourceMappingURL=NavItem.css.map */
